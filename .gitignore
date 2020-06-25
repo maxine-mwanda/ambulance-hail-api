@@ -1,0 +1,6 @@
+.vsode
+*.swp
+.idea/
+tmp/
+build/
+.env
