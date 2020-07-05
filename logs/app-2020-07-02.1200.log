@@ -1,0 +1,9 @@
+2020/07/02 18:19:54 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/02 18:19:58 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/02 18:20:05 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/02 18:20:57 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/02 18:21:50 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/02 18:21:53 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/02 18:23:11 [an error occured Error 1054: Unknown column 'id_number' in 'field list']
+2020/07/02 18:23:41 [success]
+2020/07/02 18:25:19 [an error occured Error 1062: Duplicate entry '067839' for key 'phone_number']

@@ -1,0 +1,14 @@
+2020/07/01 13:05:50 an error occured Error 1054: Unknown column 'FirstName' in 'field list'
+2020/07/01 13:09:39 success
+2020/07/01 13:12:16 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/01 13:45:42 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/01 13:55:37 an error occured Error 1136: Column count doesn't match value count at row 1
+2020/07/01 13:56:34 an error occured Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') values (?,?,?,?,?,)' at line 1
+2020/07/01 14:01:32 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/01 14:01:34 an error occured Error 1054: Unknown column 'id_number' in 'field list'
+2020/07/01 14:13:58 an error occured Error 1054: Unknown column 'status' in 'field list'
+2020/07/01 14:14:06 an error occured Error 1054: Unknown column 'status' in 'field list'
+2020/07/01 14:17:16 an error occured Error 1054: Unknown column 'status' in 'field list'
+2020/07/01 14:18:01 an error occured Error 1054: Unknown column 'status' in 'field list'
+2020/07/01 14:19:24 success
+2020/07/01 15:41:06 an error occured Error 1054: Unknown column 'id_number' in 'field list'
