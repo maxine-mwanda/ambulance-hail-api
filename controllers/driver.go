@@ -9,9 +9,17 @@ import (
 )
 
 func(s *Server) ListDriver (w http.ResponseWriter, r *http.Request) {
-	
+	var data entities.Driver
+	err := json.NewDecoder(r.Body).Decode(&data)
+	if err !=nil {
+		middleware.ErrorResponse(w, "invalid data")
+		return
+	}
 
+	middleware.OkResponse(w, 200, data.FirstName)
 }
+
+
 
 func (s *Server) Driver (w http.ResponseWriter, r *http.Request) {
 	var data entities.NewDriver
