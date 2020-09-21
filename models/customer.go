@@ -31,7 +31,6 @@ func ListCustomers (db *sql.DB) (Customers []entities.Customer, err error){
 			utils.Log("and error occured", err)
 			continue
 		}
-
 		//customer = append(Customers, customer)
 	}
 	return
