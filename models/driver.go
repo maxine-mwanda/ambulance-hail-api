@@ -17,3 +17,23 @@ func CreateDriver (data entities.NewDriver, db *sql.DB) (err error) {
 	utils.Log("success")
 	return
 }
+
+func ListDrivers (db *sql.DB) (drivers []entities.Driver, err error){
+	query:= "select user_id, first_name, last_name, phone_number, id_no, gender,created_at from driver;"
+	rows, err := db.Query(query)
+	if err!=nil {
+		utils.Log("an error occured", err)
+		return
+	}
+	for rows.Next(){
+		var driver entities.Driver
+		err=rows.Scan(&driver.UserID, &driver.FirstName, &driver.LastName, &driver.PhoneNumber, &driver.IdNumber, &driver.Gender, &driver.CreatedAt)
+		if err !=nil {
+			utils.Log("and error occured", err)
+			continue
+		}
+
+		drivers = append(drivers, driver)
+	}
+	return
+}

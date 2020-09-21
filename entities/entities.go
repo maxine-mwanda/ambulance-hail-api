@@ -28,3 +28,14 @@ type NewDriver struct {
 	Gender string `json:"gender"`
 	Password string `json:"password"`
 }
+
+type Driver struct {
+	UserID int `json:"user_id"`
+	FirstName string `json:"first_name"`
+	LastName string `json:"last_name"`
+	PhoneNumber string `json:"phone_number"`
+	IdNumber string `json:"id_no"`
+	Gender string `json:"gender"`
+	CreatedAt string `json:"created_at"`
+}
+

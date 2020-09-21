@@ -8,6 +8,11 @@ import (
 	"net/http"
 )
 
+func(s *Server) ListDriver (w http.ResponseWriter, r *http.Request) {
+	
+
+}
+
 func (s *Server) Driver (w http.ResponseWriter, r *http.Request) {
 	var data entities.NewDriver
 	err := json.NewDecoder(r.Body).Decode(&data)
